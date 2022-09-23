@@ -1,0 +1,13 @@
+/* - Básico sobre Estilos; (CSS externo, inline, estilização de texto e box model ) */
+h1{
+    background-color: green;
+}
+
+p{
+    background-color: rgb(39, 56, 39);
+    font-size: 5px;
+}
+
+.font-monospace{
+    font-family: 'Courier New';
+}
