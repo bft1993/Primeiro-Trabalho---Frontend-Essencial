@@ -1,48 +1,53 @@
-/* - Básico sobre Estilos; (CSS externo, inline, estilização de texto e box model ) */
+h2{
+    text-align:justify;
+    color: #0a5999;
+}
+
+h3{
+    color: #0a5999;
+    text-align: center;
+}
+
+p{
+    text-align: left;
+}
+
+a:link{
+    text-decoration: none;
+
+}
+
+a:hover{
+    background-color: #a3cef1;
+    color: #f39ba8;
+}
+
+a:visited{
+    color: #0a5999;
+}
+
 #cabecalho{
     float: center;
     text-align: center;
-    background-color:  #ffb6c1;
+    background-color:  #a3cef1;
+    color: #0a5999;
 }
 
-nav a:link{
-    color: #ffb6c1;
-    font-family: sans-serif;
-    text-decoration: none;
-}
-nav a:visited{
-    color: purple;
-}
-
-nav a:hover{
-    color: red;
-    text-decoration: none;
-    background-color: #ffb6c1;
-
-}
-nav a:active{
-    background-color: aqua;
-}
 nav a{
     display: inline;
     margin: 30px;
+    border-top: 20px;
 }
+
 nav{
     margin-top: 10px;
     text-align: center;
 }
-aside{
-    text-align: end;
-}
+
 footer{
     text-align: center;
 }
-h2{
-    text-align: center;
-}
-p{
-    text-align: left;
-}
+
 .font-serif{
     font-family: 'Times New Roman';
 }
